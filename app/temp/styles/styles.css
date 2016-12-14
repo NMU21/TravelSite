@@ -1346,6 +1346,20 @@ Instead edit gulp/templates/sprite */
     font-size: 1rem;
     background-color: transparent;
   }
+}
+
+.reveal-item {
+	opacity: 0;
+	-webkit-transition: all 1.5s ease-out;
+	transition: all 1.5s ease-out;
+	-webkit-transform: scale(1.15);
+	        transform: scale(1.15);
+}
+
+.reveal-item.reveal-item--is-visible {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 } 
 
 
